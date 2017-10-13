@@ -1,0 +1,33 @@
+// 可用于 PC 桌面浏览器的 custom.css
+
+.Node {
+  border-top: 1px dotted #AAAAAA !important;
+  border-right: 1px dotted #AAAAAA !important;
+  border-bottom: 2px solid #AAAAAA !important;
+  border-left: 2px solid #AAAAAA !important;
+  border-radius: 8px !important;
+  margin: 10px !important;
+  background-color: #ffffcc !important;
+}
+
+.node-line.Node-contentContainer, .Node-content.node-line.needsclick {
+  padding-bottom: 3px !important;
+}
+
+.Node-renderedNote, .Node-note {
+  line-height: 180% !important;
+}
+
+.node-tag {
+  border: 1px dotted silver !important;
+  border-radius: 5px !important;
+  background-color: #eeffff !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  text-decoration: none !important;
+}
+.node-displayed-image {
+  border: 1px solid lightgray !important;
+  border-radius: 10px !important;
+  padding: 5px !important;
+}
