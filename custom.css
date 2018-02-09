@@ -7,7 +7,11 @@
   border-left: 2px solid #AAAAAA !important;
   border-radius: 8px !important;
   margin: 10px !important;
-  background-color: #ffffcc !important;
+  background-color: rgba(240,180,0,0.12);
+}
+
+.Node-children {
+  border-left: 1px dashed white !important;
 }
 
 .node-line.Node-contentContainer, .Node-content.node-line.needsclick {
@@ -26,7 +30,9 @@
   padding-right: 5px !important;
   text-decoration: none !important;
 }
+
 .node-displayed-image {
+  width: 96%;
   border: 1px solid lightgray !important;
   border-radius: 10px !important;
   padding: 5px !important;
