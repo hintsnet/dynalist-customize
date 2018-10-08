@@ -49,7 +49,6 @@ text-decoration: none !important;
 }
 
 .node-displayed-image {
-border: 1px solid lightgray !important;
 border-radius: 10px !important;
 padding: 5px !important;
 max-width: 100%;
