@@ -1,39 +1,56 @@
-// 可用于 PC 桌面浏览器的 custom.css
+// 可用于 PC 桌面浏览器的，用于优化 Dyanlist 界面效果的 custom.css
+// Dynalist Pro 用户可使用 Custom CSS 功能载入
 
-.Node {
-  border-top: 1px dotted #AAAAAA !important;
-  border-right: 1px dotted #AAAAAA !important;
-  border-bottom: 2px solid #AAAAAA !important;
-  border-left: 2px solid #AAAAAA !important;
-  border-radius: 8px !important;
-  margin: 10px !important;
-  background-color: rgba(240,180,0,0.12);
+.DocumentContainer {
+background: url(https://pimfans.hintsnet.com/qna/181007/bcHCk3FKJd.jpg) no-repeat center center fixed !important;
+-webkit-background-size: cover !important;
+-moz-background-size: cover !important;
+-o-background-size: cover !important;
+background-size: cover !important;
+}
+
+.Document, .Node {
+box-shadow: 1px 1px 1px 1px #777777 !important;
+border-radius: 8px !important;
+margin: 10px !important;
+background-color: rgba(255,204,68,0.54) !important;
+}
+
+.Node-self {
+padding-top:5px !important;
+padding-bottom:8px !important;
+}
+
+.Node:not(.is-currentRoot) .Node-self:not(.is-contentRendered), .Node:not(.is-currentRoot) .Node-self:not(.is-noteRendered) {
+background-clip: content-box !important;
+background-color: rgba(255,255,245,0.5) !important;
 }
 
 .Node-children {
-  border-left: 1px dashed white !important;
+border-left: 1px dashed gray !important;
 }
 
 .node-line.Node-contentContainer, .Node-content.node-line.needsclick {
-  padding-bottom: 3px !important;
+padding-bottom: 3px !important;
 }
 
 .Node-renderedNote, .Node-note {
-  line-height: 180% !important;
+height:24px !important;
+line-height: 180% !important;
 }
 
 .node-tag {
-  border: 1px dotted silver !important;
-  border-radius: 5px !important;
-  background-color: #eeffff !important;
-  padding-left: 5px !important;
-  padding-right: 5px !important;
-  text-decoration: none !important;
+border: 1px dotted silver !important;
+border-radius: 5px !important;
+background-color: #eeffff !important;
+padding-left: 5px !important;
+padding-right: 5px !important;
+text-decoration: none !important;
 }
 
 .node-displayed-image {
-  width: 96%;
-  border: 1px solid lightgray !important;
-  border-radius: 10px !important;
-  padding: 5px !important;
+border: 1px solid lightgray !important;
+border-radius: 10px !important;
+padding: 5px !important;
+max-width: 100%;
 }
